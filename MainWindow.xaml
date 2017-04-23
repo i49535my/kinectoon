@@ -12,10 +12,10 @@
                 <Canvas Margin="0" x:Name="playfield" Height="688" Width="619" SizeChanged="PlayfieldSizeChanged" RenderTransformOrigin="0.489,0.499"/>
 
                 <Canvas Name="gakkiii">
-                    <!--<Image x:Name="Image1" HorizontalAlignment="Left" Height="218" VerticalAlignment="Top" Width="204" Source="C:\H28創造工学\ShapeGame\bin\Debug\太鼓.bmp" Canvas.Left="58" Canvas.Top="414"/>-->
+                    <Image x:Name="Image1" HorizontalAlignment="Left" Height="218" VerticalAlignment="Top" Width="204" Source="C:\H28創造工学\ShapeGame\bin\Debug\太鼓.bmp" Canvas.Left="58" Canvas.Top="414"/>-->
                     <Image x:Name="Image1" HorizontalAlignment="Left" Height="218" VerticalAlignment="Top" Width="204" Source="{Binding X}" Canvas.Left="58" Canvas.Top="414"/>
                     <Image x:Name="Image2" HorizontalAlignment="Left" Height="142" VerticalAlignment="Top" Width="251" Source="C:\H28創造工学\ShapeGame\ドラム.png" Canvas.Left="306" Canvas.Top="414"/>
-                    <!--<Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="84" Width="176" Canvas.Left="37" Canvas.Top="35"/>-->
+                    <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="84" Width="176" Canvas.Left="37" Canvas.Top="35"/>-->
                 </Canvas>
 
                 <toolkit:KinectSensorChooserUI x:Name="SensorChooserUI" IsListening="True"  HorizontalAlignment="Center" VerticalAlignment="Top" />
